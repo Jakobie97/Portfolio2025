@@ -2,7 +2,7 @@
  document.addEventListener('DOMContentLoaded', function() {
     const githubFeed = document.getElementById('github-feed');
     
-    fetch('https://api.github.com/users/Jakobie97/events?per_page=5') //fetch commandssssssss
+    fetch('https://api.github.com/users/Jakobie97/events?per_page=5') //fetch 
         .then(response => {
             if (!response.ok) throw new Error('Network response was not ok');
             return response.json();
