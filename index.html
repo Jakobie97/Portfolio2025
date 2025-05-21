@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jacob Stockwell | Designer + Developer</title>
+        <link rel="stylesheet" href="./css/style.css">
+
+        <script src="./js/main.js"></script>
+    </head>
+    <body>
+        <header class="hero">
+            <h1>Jacob Stockwell</h1>
+            <p class="subtitle">Designer + Developer</p>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#github">Activity</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <section id="work">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1" style="width:100%">
+                    <div class="project-info">
+                        <h3>Project Title</h3>
+                        <p>Project description goes here with key details about your role and outcomes.</p>
+                        <div class="project-links">
+                            <a href="#">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Repeat for other projects -->
+            </div>
+        </section>
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="your-photo.jpg" alt="Jacob Stockwell">
+                <div>
+                    <p>Your professional bio goes here. Highlight your experience, approach to work, and what makes you unique.</p>
+                    
+                    <h3>Skills</h3>
+                    <ul class="skills">
+                        <li>UI/UX Design</li>
+                        <li>Frontend Development</li>
+                        <li>Figma</li>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>Photography</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="github" class="github-activity">
+            <h2>Development Activity</h2>
+            <p class="subtitle">My latest GitHub contributions</p>
+            
+            <div class="activity-grid" id="github-feed">
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            </div>
+            
+            <a href="https://github.com/Jakobie97" class="github-link" target="_blank" rel="noopener">
+                View Full Profile →
+            </a>
+        </section>
+        
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        
+        <footer>
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> Jacob Stockwell. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
